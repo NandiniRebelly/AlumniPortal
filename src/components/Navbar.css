@@ -1,0 +1,34 @@
+.navbar-brand {
+    font-size: 1.5rem;
+  }
+  
+  .navbar-nav .nav-link {
+    font-size: 1rem;
+    transition: color 0.3s ease-in-out;
+  }
+  
+  .navbar-nav .nav-link:hover {
+    color: #dfe6e9; /* Light gray on hover */
+  }
+  
+  .dropdown-menu {
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .btn {
+    padding: 8px 16px;
+    font-size: 1rem;
+    border-radius: 8px;
+  }
+  
+  .btn-warning {
+    color: #212529;
+  }
+  
+  @media (max-width: 768px) {
+    .d-flex.gap-2 {
+      margin-top: 10px;
+    }
+  }
+  
